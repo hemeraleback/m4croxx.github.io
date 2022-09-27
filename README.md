@@ -1,4 +1,6 @@
-# [m4croxx.github.io](https://m4croxx.github.io) is the official website of m4croxx, used for his twitch and youtube accounts and for displaying some thigs about him and for showing the pheriperials he use
+# [m4croxx.github.io](https://m4croxx.github.io)
+>  m4croxx.github.io is the official website of m4croxx, used for his twitch and youtube channels, for displaying some thigs about him and for showing the pheriperials he use
+
  <p align="center">
  
   <!-- M4croxx -->
@@ -13,5 +15,4 @@
   <!-- JS -->
   <img src="https://camo.githubusercontent.com/442c452cb73752bb1914ce03fce2017056d651a2099696b8594ddf5ccc74825e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667" width="100" height="100"/>
   
-
 </p>
