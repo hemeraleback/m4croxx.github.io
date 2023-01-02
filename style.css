@@ -7,24 +7,24 @@ body{
 .box{
     position: absolute;
     margin: 15px;
-    border-radius: 15px;
-    background-color: rgb(5, 5, 5);
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(5px);
+    border: none;
     cursor: pointer;
     width: 60%;
     font-size: 30px;
     left: 20%;
-    border: 2px solid white;
     box-shadow: 0 0 0.5em #000000;    
 }
 
 @font-face {
     font-family: "TrueLies";
-    src: url(FONT/True_Lies.ttf);
+    src: url(FONT/MonogramsToolbox.ttf);
 }
 
 h1{
     font-family: "TrueLies";
-    color: #00FF00;
 }
 
 .bex{
@@ -35,5 +35,103 @@ h1{
 }
 
 .box:hover{
-    background-color: rgb(36, 36, 36);
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 1700px) {
+
+    .chisono{
+        top: 20%;
+    }
+
+    .progetti{
+        top: 42%;
+    }
+
+    .contatti{
+        top: 65%;
+    }
+
+    /* ========== < PROGETTI > ========== */
+    .stwlogo{
+        height: 60px;
+        width: 60px;
+    }
+
+    .distributori{
+        top: 8%;
+    }
+
+    .cover{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1701px){
+
+    .m4scritta{
+        bottom: 82%; 
+        position: absolute;
+    }
+
+    .chisono{
+        top: 10%;
+    }
+
+    .contatti{
+        top: 37%;
+    }
+
+    .progetti{
+        top: 64%;
+    }
+
+    /* ========== < PROGETTI > ========== */
+    .stwlogo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .distributori{
+        top: 7%;
+    }
+
+    .cover{
+        width: 500px;
+        height: 500px;
+    }
+
+    .comingsoon{
+        display: none;
+    }
+
+}
+
+
+.song{
+    border: none;
+    background-color: transparent;
+}
+
+.album{    
+    padding: 10% 0;
+    text-align: center;
+}
+
+.distributori{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.software{
+    cursor: pointer;
+    border: none;
+    background: none;
 }
