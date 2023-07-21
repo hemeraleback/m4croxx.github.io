@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body{
-    background-image: url(m4bg.png);
+    background-image: url(image/m4bg.png);
     background-attachment: fixed; 
     background-size: cover;
+    background-repeat: repeat;
 }
 
 .box{
@@ -19,12 +22,12 @@ body{
 }
 
 @font-face {
-    font-family: "TrueLies";
+    font-family: "MonogramsToolbox";
     src: url(FONT/MonogramsToolbox.ttf);
 }
 
 h1{
-    font-family: "TrueLies";
+    font-family: "MonogramsToolbox";
 }
 
 .bex{
@@ -41,6 +44,22 @@ h1{
 /* MOBILE */
 @media only screen and (max-width: 1700px) {
 
+    #about img{
+        width: 750px;
+        border-radius: 25px;
+        height: 300px;
+    }
+
+
+    .desktoponly{
+        display: none;
+    }
+
+    .m4scritta{
+        bottom: 91%; 
+        position: absolute;
+    }
+
     .chisono{
         top: 20%;
     }
@@ -53,24 +72,44 @@ h1{
         top: 65%;
     }
 
-    /* ========== < PROGETTI > ========== */
     .stwlogo{
         height: 60px;
         width: 60px;
     }
 
     .distributori{
-        top: 8%;
+        top: -3%;
     }
 
     .cover{
         width: 400px;
         height: 400px;
     }
+
+    #social{
+        position: fixed;
+        bottom: 0px;
+    }
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1701px){
+
+    .about{
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .mobileonly{
+        display: none;
+    }
+
+    #about img{
+        width: 500px;
+        border-radius: 25px;
+        height: 700px;
+    }
 
     .m4scritta{
         bottom: 82%; 
@@ -89,7 +128,6 @@ h1{
         top: 64%;
     }
 
-    /* ========== < PROGETTI > ========== */
     .stwlogo{
         height: 50px;
         width: 50px;
@@ -104,11 +142,16 @@ h1{
         height: 500px;
     }
 
+    .comingsoon{
+        display: none;
+    }
 
 }
 
+/* ========== < PROGETTI > ========== */
 
 .song{
+    cursor: pointer;
     border: none;
     background-color: transparent;
 }
@@ -131,4 +174,49 @@ h1{
     cursor: pointer;
     border: none;
     background: none;
+}
+
+#progetti{
+    position: relative;
+}
+
+/* ========== < SOCIAL > ========== */
+
+.social{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+}
+
+#social{
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+}
+
+.social:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(5px);
+}
+
+.social img{
+    width: 60px;
+    height: 60px;
+}
+
+/* ========== < ABOUT ME  > ========== */
+
+.about{
+    margin: auto;
+    width: 80%;
+}
+
+#about h1{
+    padding: 20px;
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
 }
